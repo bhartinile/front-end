@@ -1,0 +1,15 @@
+.loading_div {
+  font-size: 150%;
+font-family: "Raleway", sans-serif;
+}
+.span_div1 {
+  color: #424242;
+
+  text-shadow: 1px 1px black;
+}
+.span_div2 {
+  text-shadow: 0.5px 0.5px black;
+}
+.loading_div_parent{
+  margin-left: 40%;
+}

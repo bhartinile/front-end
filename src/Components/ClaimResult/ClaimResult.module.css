@@ -1,0 +1,152 @@
+.gridClaimResult{
+    margin: 6%;
+    color: white;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    
+}
+
+
+.feature_div{
+    width: 140%;
+    padding: 5%;
+    
+    height: 100%;
+    background-color: #424242;
+    display: inline-grid;
+     
+    grid-template-columns: auto auto;
+    
+    /* justify-content:space-evenly;
+    align-items: center;  */
+}
+
+.feature_div div{
+    padding:30px;
+   
+    
+}
+.claimFeature_fieldset{
+    border:.1px solid whitesmoke;
+}
+.claimFeature_label{
+    font-size: 60%;
+    color: whitesmoke;
+    
+}
+.claimFeature_legend{
+    font-size: 80%;
+    font-weight: 300;
+    color: whitesmoke;
+    padding: 2% 20% 2% 20%;
+}
+.claimDeature_span{
+    font-size: 90%;
+padding: 12%;
+}
+.DamageResult_parent_div{
+  position: relative;
+    margin-top: 1%;
+    width: 140%;
+    padding: 1%;
+ 
+    display: flex;
+    flex-direction:column;
+    row-gap: 2%;
+}
+
+.DamageResult_child2_div{
+    background-color: #424242;
+    margin-top: 2%;
+    padding: 15%;
+    display: flex;
+    flex-direction: row;
+   
+    justify-content:center;
+    font-size: 95%;
+  
+}
+
+.imagedamage{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2%;
+    margin-left:20%;
+    background-color: #424242;
+}
+.prev_nxt_btn{
+    margin-top: -2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+.prev_nxt_btn button{
+    background-color: #424242;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 1%;
+    box-shadow: 2px 2px 2px 2px #2f2b2b;
+    font-size: 90%;
+
+}
+.prev_nxt_btn button:hover{
+    background: #333232;
+    
+}
+.claim_btn{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 3%;
+}
+.claim_btn button{
+    background-color: #424242;
+    color: white;
+    outline: none;
+    border: none;
+    padding: 1%;
+    box-shadow: 2px 2px 2px 2px #2f2b2b;
+    font-size: 95%;
+}
+.claim_btn button:hover{
+    background: #333232;
+    
+}
+
+
+.priceDiv{
+    position: relative;
+    left:35%;
+    /* margin-left: 50%; */
+     
+    background: #333232;
+    border: .5px solid white;
+    box-shadow: 2px 2px 2px 2px purple;
+    display:flex ;
+    
+    justify-content: center;
+}
+.price_value{
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 160%;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+   
+}
+.price_label{
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 160%;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+   
+}
+.canvas_div{
+    margin: 20px;
+    box-shadow:5px 5px #2f2b2b ;
+}

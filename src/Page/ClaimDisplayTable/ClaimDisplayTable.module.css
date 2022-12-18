@@ -1,0 +1,52 @@
+
+.table_dashboard{
+  width: 125%;
+ 
+}
+@media screen and (max-width: 1600px) {
+  .table_dashboard {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .table_dashboard {
+    width:10%;
+  }
+}
+
+
+
+  
+  .btn_tble{
+    /* position: relative;
+    left: 75%; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 1px;
+    width: 10%;
+    justify-content: center;
+    
+    
+  }
+  .btn_tble button{
+    outline: none;
+    border: none;
+    background-color: inherit;
+    color: white;
+    z-index: 10;
+    padding: 11%;
+   
+  }
+
+ 
+  .btn_tble button:hover{
+    
+    background-color:inherit;
+  }
+ 
+
+
+
+
+ 
+  

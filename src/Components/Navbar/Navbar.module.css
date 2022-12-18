@@ -1,0 +1,27 @@
+.Navbar_parent{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #eee;
+    font-weight: 600;
+    font-size: large;
+    font-family: 'Times New Roman', Times, serif;
+    z-index: 1000;
+}
+.Navbar_parent img{
+    margin: 0 16px;
+}
+.Navbar_Logout_btn{
+    position: absolute;
+    left:92%;
+    padding: .4%;
+    color:white;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    background-color: tomato;
+}

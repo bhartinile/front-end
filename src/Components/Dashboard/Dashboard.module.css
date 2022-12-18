@@ -1,0 +1,61 @@
+.dashboard_parent{
+    position: absolute;
+    margin-top:5% ;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    /* row-gap:11%; */
+    color:white;
+   
+}
+.create_cliam{
+    position: absolute;
+    display: flex;
+    background-color: #424242;
+    flex-direction: column;
+    row-gap: 40px;
+    justify-content: center;
+    padding: 20px 40px 20px 40px;
+    font-size: 105%;
+    cursor:pointer;
+    z-index: 100;
+}
+.logo{
+    margin-top: 25%;
+    color: white;
+    position:relative;
+    left:35%;
+    font-size:200%;
+    font-weight:900;
+}
+.pagination_div{
+    position: relative;
+    left: 15%;
+    /* padding-left: ; */
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    
+}
+.search_input{
+    padding:15px ;
+    border-bottom: 2px solid white;
+    
+    outline: none;
+    background-color: #424242;
+    color: white;
+    font-size: 100%;
+}
+.search_input:focus{
+    border-bottom: 2px solid purple;
+}
+.pagin_div{
+    position: relative;
+    margin-top: -1%;
+    
+    /* margin-left: 125%; */
+   /* background-color: #424242;  */
+   display: flex;
+   justify-content: center;
+}

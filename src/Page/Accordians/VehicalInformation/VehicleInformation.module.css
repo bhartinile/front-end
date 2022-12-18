@@ -1,0 +1,71 @@
+.accrdianHeading{
+    background-color: #ffffff0a;
+    padding: 2%;
+    
+}
+.accrdianHeading input{
+    padding: 1% 5% 1% 2%;
+   outline: none;
+   border: none;
+    font-size: 100%;
+    background-color: #ffffff01;
+    color: white;
+    border: none;
+}
+.accrdianHeading:hover{
+    background-color: #ffffff11;
+}
+.accrdianHeading_pos{
+    padding: .6%;
+    border-radius: 100%;
+    
+}
+
+.input_div_info input{
+    margin-left: 2%;
+    border: none;
+    outline: none;
+    padding:15px ;
+    border-bottom: 2px solid white;
+    
+    outline: none;
+    background-color: #ffffff01;
+    color: white;
+    font-size: 100%;
+    transition: 1s;
+    /* display: inline-grid; */
+    grid-template-columns: auto auto auto;
+    padding: 2%;
+    justify-content: space-between;
+}
+.input_div_info input:hover{
+    border-bottom: 2px solid purple;
+    transition: 1s;
+}
+.input_div_info select{
+    margin-left: 2%;
+    border: none;
+    outline: none;
+    /* padding:50% ; */
+    border-bottom: 2px solid white;
+    
+    outline: none;
+    background-color: #ffffff01;
+    color: white;
+    font-size: 100%;
+    transition: 1s;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    padding: 2%;
+    padding-right: 12%;
+    justify-content: space-between;
+}
+.input_div_info select:hover{
+    border-bottom: 2px solid purple;
+    transition: 1s;
+}
+.airbagsDiv{
+    color: white;
+    font-size: 100%;
+    padding: 3% 5% 2% 2%;
+}
